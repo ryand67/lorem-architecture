@@ -1,0 +1,31 @@
+@import './App.scss';
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: $dark-text;
+
+    h1 {
+        margin-left: 2em;
+    }
+
+    .nav-header {
+        font-family: $script-text;
+        font-size: 2em;
+      }
+
+      .nav-list {
+          display: flex;
+          flex-direction: row;
+          margin-right: 2em;
+      }
+
+      .nav-item {
+          list-style: none;
+          margin-right: 1em;
+      }
+  }
