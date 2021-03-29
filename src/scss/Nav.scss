@@ -16,6 +16,11 @@
     h1 {
         margin-left: 2em;
         cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: $dark-text;
+        }
     }
 
     .nav-header {
@@ -38,6 +43,11 @@
           cursor: pointer;
           transition: .3s ease-in-out;
           position: relative;
+
+          a {
+            text-decoration: none;
+            color: $dark-text;
+          }
       }
 
       .nav-item::before {

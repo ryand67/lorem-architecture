@@ -72,7 +72,7 @@
     .hero-btn {
         margin-left: auto;
         width: 9em;
-        padding: .5em 0;
+        padding: .4em 0;
         cursor: pointer;
         background: transparent;
         border: 1px solid $dark-text;
@@ -86,8 +86,4 @@
         background: $dark-text;
         color: $background;
     }
-}
-
-@media only screen and (max-width: 1400px) {
-
 }
