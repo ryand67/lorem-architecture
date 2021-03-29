@@ -37,7 +37,7 @@
                 font-size: 3em;
                 font-family: $sans-serrif;
                 font-weight: 200;
-                margin-bottom: 0;
+                margin: 0;
                 position: relative;
             }
 
@@ -78,7 +78,7 @@
                 font-size: 3em;
                 font-family: $sans-serrif;
                 font-weight: 200;
-                margin-bottom: 0;
+                margin: 0;
                 position: relative;
             }
 
@@ -125,7 +125,8 @@
             flex-direction: column;
 
             .text-div {
-                width: 50%;
+                width: 70%;
+                
                 .about-title {
                     text-align: center;
                 }
@@ -173,6 +174,7 @@
         .about-top-div,
         .about-second-div {
             .text-div {
+                margin: 0 auto;
                 width: 80%;
             }
 
