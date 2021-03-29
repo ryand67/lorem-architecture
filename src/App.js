@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Work from './components/Work';
+import Contact from './components/Contact';
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,6 +37,10 @@ function App() {
 
           <Route exact path='/work'>
             <Work />
+          </Route>
+
+          <Route exact path='/contact'>
+            <Contact />
           </Route>
 
         </Switch>
