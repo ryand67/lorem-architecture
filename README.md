@@ -2,7 +2,11 @@
 
 A landing page for your favorite fake and aesthetic architecture firm.
 
-## Tech
+## DEPLOYED
+
+https://www.loremarchitecture.com/
+
+## TECH
 
 * React
 * SCSS

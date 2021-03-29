@@ -92,8 +92,12 @@
 @media only screen and (max-width: 1380px) {
     .hero {
 
+        .left-div {
+            width: 55%;
+        }
+
         .hero-img {
-            width: 15em;
+            width: 20em;
             margin-right: 10em;
         }
 
@@ -119,7 +123,7 @@
 @media only screen and (max-width: 1000px) {
     .hero {
         .hero-img {
-            margin-right: 0;
+            margin-right: -1em;
         }
 
         .left-div {
@@ -136,6 +140,15 @@
                 text-align: center;
                 margin-right: auto;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        .hero-desc {
+            width: 60%;
+            margin-top: .5em;
         }
     }
 }
