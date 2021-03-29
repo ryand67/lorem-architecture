@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {windowSize > 550 ? <Nav /> : ''}
+        {windowSize > 550 ? <Nav /> : <Nav />}
 
         <Switch>
           <Route exact path="/">
