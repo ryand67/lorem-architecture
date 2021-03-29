@@ -1,5 +1,6 @@
 import './scss/App.scss';
 import Nav from './components/Nav';
+import MobileNav from './components/MobileNav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Work from './components/Work';
@@ -24,7 +25,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {windowSize > 550 ? <Nav /> : <Nav />}
+        {windowSize > 550 ? <Nav /> : <MobileNav />}
 
         <Switch>
           <Route exact path="/">
