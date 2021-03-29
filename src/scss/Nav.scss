@@ -1,4 +1,4 @@
-@import './App.scss';
+@import './vars';
 
 .nav {
     height: 5em;
@@ -10,16 +10,12 @@
     position: absolute;
     color: $dark-text;
     z-index: 99;
+    color: $dark-text;
     // box-shadow: 3px 5px 3px rgba(82, 82, 82, 0.137);
 
     h1 {
         margin-left: 2em;
         cursor: pointer;
-        transition: .3s ease-in-out;
-    }
-
-    h1:hover {
-        transform: scale(1.05);
     }
 
     .nav-header {
