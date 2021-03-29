@@ -23,9 +23,10 @@
         margin-bottom: 0;
         position: relative;
         line-height: .9;
-        width: 50%;
+        width: 5em;
         margin-left: auto;
         z-index: 3;
+        margin-top: 0;
     }
 
     .hero-header::before {
@@ -47,13 +48,16 @@
         bottom: 0;
         margin: 0 auto;
         right: 0;
-        width: 100%;
+        width: 89%;
     }
 
     .hero-desc {
         z-index: 3;
         font-family: $sans-serrif;
         font-size: 1.5em;
+        width: 40%;
+        margin-left: auto;
+        text-align: right;
     }
 
     .hero-img {
@@ -66,11 +70,5 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    .left-div {
-        width: 100%;
-    }
 
-    .hero-header {
-        width: 100%;
-    }
 }
