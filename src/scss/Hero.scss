@@ -58,6 +58,7 @@
         width: 40%;
         margin-left: auto;
         text-align: right;
+        margin-bottom: .5em;
     }
 
     .hero-img {
@@ -66,6 +67,23 @@
         right: 20%;
         box-shadow: 2em 2em 0px $light-brown;
         z-index: 1;
+    }
+
+    .hero-btn {
+        margin-left: auto;
+        width: 9em;
+        padding: .5em 0;
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid $dark-text;
+        font-family: $sans-serrif;
+        font-size: 1.5em;
+        transition: .1s ease-in-out;
+    }
+
+    .hero-btn:hover {
+        background: $dark-text;
+        color: $background;
     }
 }
 

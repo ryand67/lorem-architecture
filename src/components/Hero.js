@@ -9,6 +9,7 @@ export default function Hero() {
             <div className="left-div">
                 <h1 className="hero-header">Lorem<br/> Architecture</h1>
                 <p className="hero-desc">We make your architectural dreams a reality.</p>
+                <button className="hero-btn">About</button>
             </div>
         </section>
     )
