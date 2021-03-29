@@ -25,7 +25,9 @@
         input {
             padding: .6em 0;
             padding-left: .6em;
-            border: 1px solid $dark-text;
+            // border: 1px solid $dark-text;
+            border: none;
+            border-bottom: 1px solid $dark-text;
         }
 
         textarea {
@@ -58,7 +60,7 @@
 
 @media only screen and (max-width: 1550px) {
     .contact-page {
-        height: 70vh;
+        height: 90vh;
         .contact-form {
             width: 80%;
         }
