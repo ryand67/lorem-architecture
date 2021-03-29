@@ -1,21 +1,25 @@
 @import './App.scss';
 
 .nav {
+    height: 5em;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     color: $dark-text;
+    z-index: 99;
+    // box-shadow: 3px 5px 3px rgba(82, 82, 82, 0.137);
 
     h1 {
         margin-left: 2em;
     }
 
     .nav-header {
-        font-family: $script-text;
+        font-family: $block-text;
         font-size: 2em;
+        letter-spacing: .03em;
       }
 
       .nav-list {
@@ -25,7 +29,10 @@
       }
 
       .nav-item {
+          font-family: $sans-serrif;
+          font-size: 1.2em;
           list-style: none;
           margin-right: 1em;
+          cursor: pointer;
       }
   }

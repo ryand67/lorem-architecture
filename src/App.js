@@ -1,10 +1,12 @@
 import './scss/App.scss';
-import Nav from './components/Nav/Nav';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Hero />
     </div>
   );
 }
