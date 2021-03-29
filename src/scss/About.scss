@@ -37,11 +37,24 @@
                 font-size: 3em;
                 font-family: $sans-serrif;
                 font-weight: 200;
+                margin-bottom: 0;
+                position: relative;
+            }
+
+            .about-title::before {
+                content: '';
+                position: absolute;
+                background: $light-brown;
+                width: 50%;
+                height: 4px;
+                right: 0;
+                bottom: 0;
             }
 
             .about-desc {
                 font-family: $sans-serrif;
                 font-size: 1.5em;
+                margin-top: .1em;
             }
         }
     }
@@ -65,11 +78,25 @@
                 font-size: 3em;
                 font-family: $sans-serrif;
                 font-weight: 200;
+                margin-bottom: 0;
+                position: relative;
+            }
+
+            .about-title::before {
+                content: '';
+                position: absolute;
+                background: $light-blue;
+                width: 50%;
+                height: 4px;
+                margin: 0 auto;
+                left: 0;
+                bottom: 0;
             }
 
             .about-desc {
                 font-family: $sans-serrif;
                 font-size: 1.5em;
+                margin-top: .1em;
             }
         }
     }  
@@ -80,10 +107,46 @@
         .about-top-div,
         .about-second-div {
             flex-direction: column;
+
+            .text-div {
+                .about-title {
+                    text-align: center;
+                }
+
+                .about-title::before {
+                    width: 75%;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                }
+
+                .about-desc {
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+            }
         }
 
         .about-top-div {
-            margin-bottom: 8em;
+            margin-bottom: 3em;
+
+            .about-img-1 {
+                box-shadow: 1em 1em 0px $light-blue;
+                margin-right: 2em;
+            }
+        }
+
+        .about-second-div {
+            flex-direction: column-reverse;
+
+            .about-img-2 {
+                box-shadow: -1em -1em 0px $light-brown;
+                margin-left: 2em;
+            }
+
+            .about-desc {
+                margin-bottom: 2em;
+            }
         }
     }
 }
