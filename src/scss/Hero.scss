@@ -146,6 +146,10 @@
 
 @media only screen and (max-width: 550px) {
     .hero {
+        .hero-img {
+            right: 15%;
+        }
+
         .hero-desc {
             width: 60%;
             margin-top: .5em;
