@@ -1,0 +1,89 @@
+@import './vars';
+
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $dark-text;
+    background: $background;
+
+    .about-header {
+        font-family: $block-text;
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+
+    .about-top-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4em;
+
+        .about-img-1 {
+            width: 30%;
+            position: relative;
+            box-shadow: 2em 2em 0px $light-blue;
+        }
+
+        .text-div {
+            text-align: right;
+            margin-right: 2em;
+            width: 40%;
+
+            .about-title {
+                font-size: 3em;
+                font-family: $sans-serrif;
+                font-weight: 200;
+            }
+
+            .about-desc {
+                font-family: $sans-serrif;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    .about-second-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .about-img-2 {
+            width: 30%;
+            box-shadow: -2em -2em 0px $light-brown;
+        }
+
+        .text-div {
+            margin-left: 2em;
+            width: 40%;
+
+            .about-title {
+                font-size: 3em;
+                font-family: $sans-serrif;
+                font-weight: 200;
+            }
+
+            .about-desc {
+                font-family: $sans-serrif;
+                font-size: 1.5em;
+            }
+        }
+    }  
+}
+
+@media only screen and (max-width: 1200px) {
+    .about {
+        .about-top-div,
+        .about-second-div {
+            flex-direction: column;
+        }
+
+        .about-top-div {
+            margin-bottom: 8em;
+        }
+    }
+}
