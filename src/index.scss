@@ -16,3 +16,21 @@ html {
   max-height: 100vh;
   overflow-x: hidden;
 }
+
+@media only screen and (min-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 2048px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
