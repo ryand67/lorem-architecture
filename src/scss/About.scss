@@ -171,11 +171,21 @@
 
 @media only screen and (max-width: 600px) {
     .about {
+        .about-header {
+            margin-bottom: 0;
+            margin-top: 1em;
+        }
+
         .about-top-div,
         .about-second-div {
             .text-div {
                 margin: 0 auto;
                 width: 80%;
+
+                .about-title {
+                    width: 100%;
+                    font-size: 2.5em;
+                }
             }
 
             .about-img-1 {
