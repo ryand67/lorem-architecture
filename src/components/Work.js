@@ -10,8 +10,8 @@ export default function Work() {
         <main className="work-page">
             <h1 className="work-header">Work</h1>
             <div className="work-card-div">
-                {pictures.map((item) => {
-                    return <WorkCard picture={item} />
+                {pictures.map((item, i) => {
+                    return <WorkCard picture={item} key={i} />
                 })}
             </div>
             <ScrollToTop />
