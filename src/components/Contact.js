@@ -1,11 +1,23 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import '../scss/Contact.scss';
 
 export default function Contact() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        console.log(e.target);
+
+        emailjs.sendForm('service_mplbg7h', 'template_vr8wd83', e.target, 'user_8JdlKgob6SqIadG5ELa2O')
+            .then((result) => {
+          console.log(result.text);
+            }, (error) => {
+          console.log(error.text);
+      });
+
         document.getElementById('contactForm').reset();
+
+        e.target.reset();
     }
 
     return (
