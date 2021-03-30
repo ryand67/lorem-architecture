@@ -2,6 +2,7 @@ import React from 'react';
 import '../scss/Work.scss';
 import WorkCard from './WorkCard';
 import pictures from './util/WorkPictures.js';
+import ScrollToTop from './util/ScrollToTop.js';
 
 export default function Work() {
 
@@ -13,6 +14,7 @@ export default function Work() {
                     return <WorkCard picture={item} />
                 })}
             </div>
+            <ScrollToTop />
         </main>
     )
 }
