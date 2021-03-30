@@ -1,17 +1,18 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../scss/Work.scss';
-import API from '../util/API';
+import WorkCard from './WorkCard';
+import pictures from './util/WorkPictures.js';
 
 export default function Work() {
 
-    useEffect(() => {
-        console.log('asdf')
-        console.log(API.getPictures());
-    }, [])
-
     return (
-        <main>
-            
+        <main className="work-page">
+            <h1 className="work-header">Work</h1>
+            <div className="work-card-div">
+                {pictures.map((item) => {
+                    return <WorkCard picture={item} />
+                })}
+            </div>
         </main>
     )
 }

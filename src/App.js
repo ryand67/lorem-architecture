@@ -14,7 +14,7 @@ import { useState, useEffect } from 'react';
 
 function App() {
 
-  const [windowSize, setWindowSize] = useState(0);
+  const [windowSize, setWindowSize] = useState(window.outerWidth);
 
   useEffect(() => {
     window.addEventListener('resize', () => {

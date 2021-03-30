@@ -1,0 +1,12 @@
+@import './vars';
+
+.work-card {
+    width: 30em;
+    height: 30em;
+    margin: .5em auto;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    box-shadow: 6px 6px 6px rgba(43, 43, 43, 0.384);
+}

@@ -1,0 +1,24 @@
+@import './vars';
+
+.work-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $dark-text;
+    background: $background;
+    
+    .work-header {
+        font-family: $block-text;
+        font-size: 4em;
+    }
+
+    .work-card-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-bottom: 2em;
+    }
+}
