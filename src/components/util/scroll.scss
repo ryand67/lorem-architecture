@@ -8,14 +8,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 14px;
     opacity: .8;
     position: fixed;
     right: 1em;
     bottom: 1em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
 
     i {
         color: $background;
         font-size: 3em;
     }
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
 }

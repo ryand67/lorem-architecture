@@ -12,6 +12,7 @@
     .work-header {
         font-family: $block-text;
         font-size: 4em;
+        margin-bottom: .2em;
     }
 
     .work-card-div {
@@ -19,6 +20,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 90%;
-        margin-bottom: .5em;
+        margin-bottom: 2em;
     }
 }
