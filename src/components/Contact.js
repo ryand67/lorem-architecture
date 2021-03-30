@@ -17,7 +17,7 @@ export default function Contact() {
                 <label htmlFor="email">Email Address:</label>
                 <input type="text" name="email" placeholder="Email Address..." id="formEmail" />
                 <label htmlFor="message">Message:</label>
-                <textarea name="message" id="formMessage" cols="30" rows="10" placeholder="Message..."></textarea>
+                <textarea name="message" id="formMessage" cols="30" rows="20" placeholder="Message..."></textarea>
                 <button type="submit" id="submitButton">Send Message</button>
             </form>
         </main>
