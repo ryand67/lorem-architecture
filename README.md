@@ -8,6 +8,7 @@ https://www.loremarchitecture.com/
 
 ## TECH
 
-* React
-* SCSS
 * HTML/JSX
+* SCSS
+* React
+* emailJS
