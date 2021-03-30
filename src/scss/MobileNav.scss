@@ -13,22 +13,6 @@
     color: $dark-text;
     // box-shadow: 3px 5px 3px rgba(82, 82, 82, 0.137);
 
-    h1 {
-        margin-left: 2em;
-        cursor: pointer;
-
-        a {
-          text-decoration: none;
-          color: $dark-text;
-        }
-    }
-
-    .nav-header {
-        font-family: $block-text;
-        font-size: 2em;
-        letter-spacing: .03em;
-      }
-
       .nav-list {
           display: flex;
           flex-direction: row;
